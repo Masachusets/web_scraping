@@ -25,4 +25,4 @@ def find_articles_by_keywords(keywords):
             # find post's time
             post_time = post.find('time').get('title')
             correct_posts.append(f'{post_time} - {post_header_text} - {post_link}')
-        return correct_posts
+    return correct_posts
